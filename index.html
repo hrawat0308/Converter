@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Converter</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <div class="columns is-centered header">
+        <h1 class="title column has-text-centered is-full">Converter</h1>
+    </div>
+
+    <div class="columns is-mobile">
+        <div class="from column is-offset-2-tablet is-3-tablet is-offset-1-mobile is-5-mobile">
+            <label for="from">From</label>
+            <br>
+            <div class="select is-medium is-rounded">
+                <select id="from">
+                    <option>Decimal</option>
+                    <option>Hexadecimal</option>
+                    <option>Octal</option>
+                    <option>Binary</option>
+                </select>
+            </div>
+        </div>
+        <div class="to column is-offset-2-tablet is-3-tablet  is-5-mobile">
+            <label for="to">To</label>
+            <br>
+            <div class="select is-medium is-rounded">
+                <select id="to">
+                    <option>Decimal</option>
+                    <option>Hexadecimal</option>
+                    <option>Octal</option>
+                    <option>Binary</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <section class="columns is-mobile">
+        <input type="text"  value="" id="userInput" class="input column is-primary is-medium is-offset-2-tablet is-3-tablet is-offset-1-mobile is-5-mobile"  />
+        <input type="text" value="" id="convertedOutput" disabled class="input column is-primary is-medium is-offset-2-tablet is-3-tablet is-5-mobile"  />
+    </section>
+    
+    <div class="btns">
+        <button id="convert-btn" class="button is-primary is-medium">Convert</button>
+        <button id="swap-btn" class="button is-info is-medium" >Swap</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    min-height: 100vh;
+    background-color: #B1D7B4;
+}
+.header{
+    padding-top: 5% !important;
+}
+.btns{
+    margin-top: 2%;
+    width : 50%;
+    display: flex;
+    gap : 5%;  
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btns > button {
+    height: 40px;
+    cursor : pointer;
+}
+
