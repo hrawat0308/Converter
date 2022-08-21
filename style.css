@@ -5,6 +5,9 @@ body{
 .header{
     padding-top: 5% !important;
 }
+h1{
+    color: #7FB77E !important;
+}
 .btns{
     margin-top: 2%;
     width : 50%;
